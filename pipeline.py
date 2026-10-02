@@ -13,6 +13,9 @@ def calcular_iva(precio, tasa=0.21):
     """Calcula el IVA de un precio"""
     return precio * tasa
 
+def aplicar_descuento(precio, descuento):
+    """Aplica descuento a los mayoristas"""
+    return precio - descuento
 
 def calcular_total(datos, con_iva=True):
     """Calcula el total de ventas."""
